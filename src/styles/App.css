@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea.practical-textarea {
+  height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.cv-preview {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.cv-section {
+  margin-bottom: 20px;
+}
+
+.cv-section h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.cv-item {
+  margin: 10px 0;
+}
+
+.cv-item-title {
+  font-weight: bold;
+}
+
+.cv-item-date {
+  color: #777;
+}
+
+.cv-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cv-header h2 {
+  margin: 0;
+}
+
+.cv-header p {
+  margin: 5px 0;
+}
